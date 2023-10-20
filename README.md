@@ -1,5 +1,5 @@
 # KPI Monitoring Dashboard
-![image]()
+![image](https://github.com/joelmsherman/KPI-Dashboard/blob/master/Forecast%20Monitoring%20Tool.png)
 
 ## Background
 MSA & Associates owns and operates several business on the west coast of the United States.  Their executive management team relies on current information about their operations in order to make strategic decisions. Specifically, the team needs to track variations between actuals and forecasts for several of the company's key performance indicators (KPIs).  However, obtaining data from their siloed source systems is cumbersome and inefficient.  Further, once data is finally available, it's often difficult to consume.
