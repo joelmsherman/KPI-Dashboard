@@ -8,7 +8,7 @@ MSA & Associates owns and operates several business on the west coast of the Uni
 This project set out to streamline the acquisiton and integration of MSAs KPI data, as well as to visualize the information in an intuitive way for managers to be able to make quick decisions.  The team needed a compact, information-dense dashboard that would enable them to view at-a-glance performance among their six primary KPIs, and to dive into the components of each, viewing trends over time.  
 
 ## Report
-A link to the live report is available [here](https://app.powerbi.com/view?r=eyJrIjoiNTczMjA5MmItZmM0My00MDk2LWJjYTUtYjUxNWE4NmRiODFlIiwidCI6IjEwMmY4MzcyLTBlMWUtNDFhMy04ZWU4LTZhOTQ5NzAyZjcxNCJ9).
+A link to the live report is available [here](https://app.powerbi.com/view?r=eyJrIjoiZTg3MzIzNzktMDdkMC00Y2YzLTlkMTUtMzYxMGVhY2NhOTcwIiwidCI6IjEwMmY4MzcyLTBlMWUtNDFhMy04ZWU4LTZhOTQ5NzAyZjcxNCJ9).
 
 ## Administration & Governance
 
