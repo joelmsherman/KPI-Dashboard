@@ -1,0 +1,4758 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.122.746.0 (23.10)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"SourceData\",\"Series\",\"Units\",\"fxDateTable\",\"fxStartDate\",\"fxEndDate\",\"SourceDates\",\"Dates\",\"_Measures\",\"_DataRefresh\"]"
+      },
+      {
+        "name": "__TEdtr",
+        "value": "1"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "Weight": 0.87
+                    }
+                  },
+                  {
+                    "calendar table": {
+                      "LastModified": "2023-09-26T17:37:22.32Z"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "calendar tabletop": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "calendar bench": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar board": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar counter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar stand": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar slab": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar desk": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar stall": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "calendar table top": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "date.CY_completed": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "CY Completed"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "CY completed": {}
+                  },
+                  {
+                    "completed CY": {
+                      "LastModified": "2023-09-26T17:40:20.492Z"
+                    }
+                  },
+                  {
+                    "calendar year completed": {
+                      "LastModified": "2023-09-26T17:40:20.492Z"
+                    }
+                  },
+                  {
+                    "completed calendar year": {
+                      "LastModified": "2023-09-26T17:40:20.492Z"
+                    }
+                  },
+                  {
+                    "calendar yr completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "completed calendar yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  }
+                ]
+              },
+              "date.CY_offset": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "CY Offset"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "CY offset": {}
+                  },
+                  {
+                    "calendar year offset": {
+                      "LastModified": "2023-09-26T17:42:48.43Z"
+                    }
+                  },
+                  {
+                    "year offset": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "calendar yr offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "yr offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "calendar year equalizer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "calendar year compensation": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "cy equalizer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "year equalizer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy compensation": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "year compensation": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "calendar year counterbalance": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "calendar year balance": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "offset": {
+                      "LastModified": "2023-09-26T17:42:48.43Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "date.FY_completed": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "FY Completed"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "FY completed": {}
+                  },
+                  {
+                    "completed FY": {
+                      "LastModified": "2023-09-26T17:45:19.13Z"
+                    }
+                  },
+                  {
+                    "fiscal year completed": {
+                      "LastModified": "2023-09-26T17:45:19.13Z"
+                    }
+                  },
+                  {
+                    "completed fiscal year": {
+                      "LastModified": "2023-09-26T17:45:19.13Z"
+                    }
+                  },
+                  {
+                    "fiscal yr completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "completed fiscal yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "fisc year completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.615
+                    }
+                  },
+                  {
+                    "completed fisc year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.615
+                    }
+                  },
+                  {
+                    "accounting year completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "budget year completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "fiscal date completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "fiscal day completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "tax year completed": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "completed accounting year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  }
+                ]
+              },
+              "date.FY_offset": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "FY Offset"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "FY offset": {}
+                  },
+                  {
+                    "fiscal year offset": {
+                      "LastModified": "2023-09-26T17:46:10.999Z"
+                    }
+                  },
+                  {
+                    "year offset": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fisc year offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.615
+                    }
+                  },
+                  {
+                    "fiscal yr offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "yr offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "accounting year offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "budget year offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "fiscal date offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "fiscal day offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "tax year offset": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.597
+                    }
+                  },
+                  {
+                    "fiscal year equalizer": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "fiscal year compensation": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "offset": {
+                      "LastModified": "2023-09-26T17:46:11.013Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "date.FY_sort": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "FY Sort"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "FY sort": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fy category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy genus": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy species": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy nature": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy kind": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fy class": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fy type": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fy ilk": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "fy order": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "date.cy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "CY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cy": {}
+                  },
+                  {
+                    "calendar year": {
+                      "LastModified": "2023-09-26T17:38:42.997Z"
+                    }
+                  },
+                  {
+                    "calendar yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "date.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {}
+                  },
+                  {
+                    "period": {
+                      "LastModified": "2023-09-26T17:43:21.921Z",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "era": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "epoch": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "age": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "stage": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "phase": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "date.fy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "FY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fy": {}
+                  },
+                  {
+                    "fiscal year": {
+                      "LastModified": "2023-09-26T17:44:09.859Z"
+                    }
+                  },
+                  {
+                    "fiscal yr": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "fisc year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "accounting year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "budget year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "fiscal date": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "fiscal day": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "tax year": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "date.month_CY": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "Month CY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "LastModified": "2023-09-26T17:49:03.311Z"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "month CY": {
+                      "LastModified": "2023-09-26T17:49:03.311Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "date.month_CY_sort": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "Month CY Sort"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month CY sort": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CY sort": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth cy sort": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "month cy category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month cy genus": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month cy species": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month cy variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month cy nature": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "cy category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy genus": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy species": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "date.month_FY": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "Month FY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month FY": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth fy": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "date.month_FY_sort": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "Month FY Sort"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month FY sort": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FY sort": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth fy sort": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "month fy category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month fy genus": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month fy species": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month fy variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "month fy nature": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "fy category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy genus": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy species": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "fy variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "date.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "CY Sort"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "CY sort": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cy category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy genus": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy species": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy nature": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "cy kind": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cy class": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cy type": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cy ilk": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "cy order": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "series": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Series"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "series": {
+                      "State": "Generated",
+                      "Weight": 0.87
+                    }
+                  },
+                  {
+                    "succession": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "progression": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sequence": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "run": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "chain": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "string": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cycle": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "series.account": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Series",
+                    "ConceptualProperty": "Account"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "account": {
+                      "LastModified": "2023-09-26T18:36:54.87Z"
+                    }
+                  },
+                  {
+                    "level 1 group": {
+                      "LastModified": "2023-09-26T18:36:54.87Z",
+                      "State": "Deleted"
+                    }
+                  },
+                  {
+                    "1 group": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "level 1 category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "level 1 organization": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "1 category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "1 organization": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "level 1 bracket": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "level 1 class": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "level 1 crew": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "level 1 team": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "1 bracket": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "1 class": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "series.group": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Series",
+                    "ConceptualProperty": "Group"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "group": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "organization": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "bracket": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "crew": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "team": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "series.series": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Series",
+                    "ConceptualProperty": "Series"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "series": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "succession": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "progression": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sequence": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "run": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "chain": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "string": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cycle": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "series.series_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Series",
+                    "ConceptualProperty": "SeriesID"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "series ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "series identification": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series identity": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series identifier": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series credential": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "unit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Units"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tons": {
+                      "LastModified": "2023-09-26T18:12:57.83Z"
+                    }
+                  },
+                  {
+                    "ton": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "loads": {
+                      "LastModified": "2023-09-26T18:12:57.83Z"
+                    }
+                  },
+                  {
+                    "load": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "actuals": {
+                      "LastModified": "2023-09-26T18:12:57.83Z"
+                    }
+                  },
+                  {
+                    "actual": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "forecasts": {
+                      "LastModified": "2023-09-26T18:12:57.83Z"
+                    }
+                  },
+                  {
+                    "forecast": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "prediction": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "projection": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "real": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "existent": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tangible": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "report": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "estimate": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "cargo": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "consignment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "shipment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "unit": {
+                      "LastModified": "2023-09-26T18:12:57.83Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "unit.ac": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "AC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "actuals": {
+                      "LastModified": "2023-09-26T18:18:03.66Z"
+                    }
+                  },
+                  {
+                    "current year actuals": {
+                      "LastModified": "2023-09-26T18:18:03.66Z"
+                    }
+                  },
+                  {
+                    "actual tons": {
+                      "LastModified": "2023-09-26T18:18:03.66Z"
+                    }
+                  },
+                  {
+                    "actual loads": {
+                      "LastModified": "2023-09-26T18:18:03.66Z"
+                    }
+                  },
+                  {
+                    "year actuals": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "current yr actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "yr actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "latest year actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "contemporary year actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "present year actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "real ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "existent ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "tangible ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "real load": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "existent load": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "ac": {
+                      "LastModified": "2023-09-26T18:18:03.66Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "unit.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Units",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "Hidden": true,
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "unit.fc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "FC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fc": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "unit.py": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "PY"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "previous year actuals": {
+                      "LastModified": "2023-09-26T18:20:12.233Z"
+                    }
+                  },
+                  {
+                    "last year tons": {
+                      "LastModified": "2023-09-26T18:20:12.234Z"
+                    }
+                  },
+                  {
+                    "last year loads": {
+                      "LastModified": "2023-09-26T18:20:12.234Z"
+                    }
+                  },
+                  {
+                    "year actuals": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "year tons": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "year loads": {
+                      "State": "Suggested",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "previous yr actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "last yr ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "last yr load": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "yr actual": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "yr ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "yr load": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "end year ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "final year ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "closing year ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "concluding year ton": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "py": {
+                      "LastModified": "2023-09-26T18:20:12.234Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "unit.series_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Units",
+                    "ConceptualProperty": "SeriesID"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "series ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "series identification": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series identity": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series identifier": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series credential": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "unit.sum_of_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Sum of Value"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sum of value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quantity of value": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.769
+                    }
+                  },
+                  {
+                    "summation of value": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "aggregation of value": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "total of value": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "aggregate of value": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "amount of value": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "unit.type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Units",
+                    "ConceptualProperty": "Type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Series type": {
+                      "LastModified": "2023-09-26T18:15:08.902Z"
+                    }
+                  },
+                  {
+                    "series category": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series genre": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series manner": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series variety": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "series brand": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series class": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series kind": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series style": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series form": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "series grouping": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "type": {
+                      "LastModified": "2023-09-26T18:15:08.902Z",
+                      "State": "Deleted"
+                    }
+                  }
+                ]
+              },
+              "unit.value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Units",
+                    "ConceptualProperty": "Value"
+                  }
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "price": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "charge": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rate": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "significance": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "usefulness": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "consequence": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "date_has_cy": {
+                "Binding": {
+                  "ConceptualEntity": "Dates"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.cy"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.cy": {
+                    "Target": {
+                      "Entity": "date.cy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Dates"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.date"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.date": {
+                    "Target": {
+                      "Entity": "date.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_fy": {
+                "Binding": {
+                  "ConceptualEntity": "Dates"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fy"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.fy": {
+                    "Target": {
+                      "Entity": "date.fy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_month_CY": {
+                "Binding": {
+                  "ConceptualEntity": "Dates"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.month_CY"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.month_CY": {
+                    "Target": {
+                      "Entity": "date.month_CY"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_month_FY": {
+                "Binding": {
+                  "ConceptualEntity": "Dates"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.month_FY"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.month_FY": {
+                    "Target": {
+                      "Entity": "date.month_FY"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "series_has_account": {
+                "Binding": {
+                  "ConceptualEntity": "Series"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "series.account"
+                      },
+                      "Subject": {
+                        "Role": "series"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "series": {
+                    "Target": {
+                      "Entity": "series"
+                    }
+                  },
+                  "series.account": {
+                    "Target": {
+                      "Entity": "series.account"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "series_has_group": {
+                "Binding": {
+                  "ConceptualEntity": "Series"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "series.group"
+                      },
+                      "Subject": {
+                        "Role": "series"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "series": {
+                    "Target": {
+                      "Entity": "series"
+                    }
+                  },
+                  "series.group": {
+                    "Target": {
+                      "Entity": "series.group"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "series_has_series": {
+                "Binding": {
+                  "ConceptualEntity": "Series"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "series.series"
+                      },
+                      "Subject": {
+                        "Role": "series"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "series": {
+                    "Target": {
+                      "Entity": "series"
+                    }
+                  },
+                  "series.series": {
+                    "Target": {
+                      "Entity": "series.series"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "unit_has_ac": {
+                "Binding": {
+                  "ConceptualEntity": "Units"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "unit.ac"
+                      },
+                      "Subject": {
+                        "Role": "unit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "unit": {
+                    "Target": {
+                      "Entity": "unit"
+                    }
+                  },
+                  "unit.ac": {
+                    "Target": {
+                      "Entity": "unit.ac"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "unit_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Units"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date"
+                      },
+                      "Subject": {
+                        "Role": "unit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "unit"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "unit": {
+                    "Target": {
+                      "Entity": "unit"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "unit_has_fc": {
+                "Binding": {
+                  "ConceptualEntity": "Units"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "unit.fc"
+                      },
+                      "Subject": {
+                        "Role": "unit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "unit": {
+                    "Target": {
+                      "Entity": "unit"
+                    }
+                  },
+                  "unit.fc": {
+                    "Target": {
+                      "Entity": "unit.fc"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "unit_has_py": {
+                "Binding": {
+                  "ConceptualEntity": "Units"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "unit.py"
+                      },
+                      "Subject": {
+                        "Role": "unit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "unit": {
+                    "Target": {
+                      "Entity": "unit"
+                    }
+                  },
+                  "unit.py": {
+                    "Target": {
+                      "Entity": "unit.py"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "unit_has_series": {
+                "Binding": {
+                  "ConceptualEntity": "Units"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "series"
+                      },
+                      "Subject": {
+                        "Role": "unit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "unit"
+                      },
+                      "Subject": {
+                        "Role": "series"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "series": {
+                    "Target": {
+                      "Entity": "series"
+                    }
+                  },
+                  "unit": {
+                    "Target": {
+                      "Entity": "unit"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "unit_has_type": {
+                "Binding": {
+                  "ConceptualEntity": "Units"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "unit.type"
+                      },
+                      "Subject": {
+                        "Role": "unit"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "unit": {
+                    "Target": {
+                      "Entity": "unit"
+                    }
+                  },
+                  "unit.type": {
+                    "Target": {
+                      "Entity": "unit.type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "discourageImplicitMeasures": true,
+    "expressions": [
+      {
+        "name": "SourceData",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Csv.Document(File.Contents(\"G:\\My Drive\\JMS Analytics\\Projects\\KPI Monitoring BI Tool\\Data\\SourceData2.csv\"),[Delimiter=\",\", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Type\", type text}, {\"Date\", type date}, {\"SeriesID\", type text}, {\"Account\", type text}, {\"Group\", type text}, {\"Series\", type text}, {\"Value\", type number}})",
+          "in",
+          "    #\"Changed Type\""
+        ],
+        "kind": "m",
+        "lineageTag": "abdfe878-859f-488a-9b77-1331308e1241",
+        "queryGroup": "Sources"
+      },
+      {
+        "name": "fxDateTable",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = let fnDateTable = ( StartDate as date, EndDate as date, optional FYStartMonthNum as number, optional Holidays as list, optional WDStartNum as number, optional AddRelativeNetWorkdays as logical ) as table =>",
+          "  let",
+          "      FYStartMonth = List.Select( {1..12}, each _ = FYStartMonthNum ){0}? ?? 1,",
+          "      WDStart = List.Select( {0..1}, each _ = WDStartNum ){0}? ?? 0,",
+          "      CurrentDate = Date.From( DateTime.FixedLocalNow()),",
+          "      DayCount = Duration.Days( Duration.From( EndDate - StartDate)) +1,",
+          "      Source = List.Dates( StartDate, DayCount, #duration(1,0,0,0)),",
+          "      AddToday = if EndDate < CurrentDate then List.Combine( {Source, {CurrentDate}}) else Source,",
+          "      ToTable = Table.FromList(AddToday, Splitter.SplitByNothing(), type table [Date = Date.Type] ),",
+          "      InsertYear = Table.AddColumn(ToTable, \"Year\", each Date.Year([Date]), type number),",
+          "      InsertYearOffset = Table.AddColumn(InsertYear, \"CurrYearOffset\", each Date.Year([Date]) - Date.Year( Date.From(CurrentDate)), type number),",
+          "      InsertCompletedYear = Table.AddColumn(InsertYearOffset, \"YearCompleted\", each Date.EndOfYear([Date]) < Date.From( Date.EndOfYear(CurrentDate)), type logical),",
+          "",
+          "      InsertQuarterNum = Table.AddColumn(InsertCompletedYear, \"Quarter Number\", each Date.QuarterOfYear([Date]), type number),",
+          "      InsertQuarter = Table.AddColumn(InsertQuarterNum, \"Quarter\", each \"Q\" & Number.ToText([Quarter Number]), type text),",
+          "      InsertStartOfQuarter = Table.AddColumn(InsertQuarter, \"Start of Quarter\", each Date.StartOfQuarter([Date]), type date),",
+          "      InsertEndOfQuarter = Table.AddColumn(InsertStartOfQuarter, \"End of Quarter\", each Date.EndOfQuarter([Date]), type date),",
+          "      InsertCalendarQtr = Table.AddColumn(InsertEndOfQuarter, \"Quarter & Year\", each \"Q\" & Number.ToText( Date.QuarterOfYear([Date])) & Date.ToText([Date], [Format = \" yyyy\"]), type text),",
+          "      InsertQuarternYear = Table.AddColumn(InsertCalendarQtr, \"QuarternYear\", each [Year] * 10 + [Quarter Number], type number),",
+          "      InsertQuarterOffset = Table.AddColumn(InsertQuarternYear, \"CurrQuarterOffset\", each ((4 * Date.Year([Date])) +  Date.QuarterOfYear([Date])) - ((4 * Date.Year(Date.From(CurrentDate))) +  Date.QuarterOfYear(Date.From(CurrentDate))), type number),",
+          "      InsertCompletedQuarter = Table.AddColumn(InsertQuarterOffset, \"QuarterCompleted\", each Date.EndOfQuarter([Date]) < Date.From(Date.EndOfQuarter(CurrentDate)), type logical),",
+          "",
+          "      InsertMonth = Table.AddColumn(InsertCompletedQuarter, \"Month\", each Date.Month([Date]), type number),",
+          "      InsertStartOfMonth = Table.AddColumn(InsertMonth, \"Start of Month\", each Date.StartOfMonth([Date]), type date),",
+          "      InsertEndOfMonth = Table.AddColumn(InsertStartOfMonth, \"End of Month\", each Date.EndOfMonth([Date]), type date),",
+          "      InsertCalendarMonth = Table.AddColumn(InsertEndOfMonth, \"Month & Year\", each Text.Proper( Date.ToText([Date], [Format = \"MMM yyyy\"])), type text),",
+          "      InsertMonthnYear = Table.AddColumn(InsertCalendarMonth , \"MonthnYear\", each [Year] * 100 + [Month], type number),",
+          "      InsertMonthOffset = Table.AddColumn(InsertMonthnYear, \"CurrMonthOffset\", each ((12 * Date.Year([Date])) +  Date.Month([Date])) - ((12 * Date.Year(Date.From(CurrentDate))) +  Date.Month(Date.From(CurrentDate))), type number),",
+          "      InsertCompletedMonth = Table.AddColumn(InsertMonthOffset, \"MonthCompleted\", each Date.EndOfMonth([Date]) < Date.From(Date.EndOfMonth(CurrentDate)), type logical),",
+          "      InsertMonthName = Table.AddColumn(InsertCompletedMonth, \"Month Name\", each Text.Proper( Date.ToText([Date], \"MMMM\")), type text),",
+          "      InsertMonthShort = Table.AddColumn( InsertMonthName, \"Month Short\", each Text.Proper( Date.ToText([Date], \"MMM\")), type text),",
+          "      InsertMonthInitial = Table.AddColumn(InsertMonthShort, \"Month Initial\", each Text.Start([Month Name], 1) & Text.Repeat( Character.FromNumber(8203), Date.Month([Date]) ), type text),",
+          "      InsertDayOfMonth = Table.AddColumn(InsertMonthInitial, \"Day of Month\", each Date.Day([Date]), type number),",
+          "  ",
+          "      InsertWeekNumber = Table.AddColumn(InsertDayOfMonth, \"Week Number\", each",
+          "        if Number.RoundDown((Date.DayOfYear([Date])-(Date.DayOfWeek([Date], Day.Monday)+1)+10)/7)=0",
+          "        then Number.RoundDown((Date.DayOfYear(#date(Date.Year([Date])-1,12,31))-(Date.DayOfWeek(#date(Date.Year([Date])-1,12,31), Day.Monday)+1)+10)/7)",
+          "        else if (Number.RoundDown((Date.DayOfYear([Date])-(Date.DayOfWeek([Date], Day.Monday)+1)+10)/7)=53 and (Date.DayOfWeek(#date(Date.Year([Date]),12,31), Day.Monday)+1<4))",
+          "        then 1 else Number.RoundDown((Date.DayOfYear([Date])-(Date.DayOfWeek([Date], Day.Monday)+1)+10)/7), type number),",
+          "      InsertStartOfWeek = Table.AddColumn(InsertWeekNumber, \"Start of Week\", each Date.StartOfWeek([Date], Day.Monday), type date),",
+          "      InsertWeekEnding = Table.AddColumn(InsertStartOfWeek, \"End of Week\", each Date.EndOfWeek( [Date], Day.Monday), type date),",
+          "      InsertCalendarWk = Table.AddColumn(InsertWeekEnding, \"Week & Year\", each \"W\" & Text.PadStart( Text.From( [Week Number] ), 2, \"0\") & \" \" & Text.From(Date.Year( Date.AddDays( Date.StartOfWeek([Date], Day.Monday), 3 ))), type text ),",
+          "      InsertWeeknYear = Table.AddColumn(InsertCalendarWk, \"WeeknYear\", each Date.Year( Date.AddDays( Date.StartOfWeek([Date], Day.Monday), 3 )) * 100 + [Week Number],  Int64.Type),",
+          "      InsertWeekOffset = Table.AddColumn(InsertWeeknYear, \"CurrWeekOffset\", each (Number.From(Date.StartOfWeek([Date], Day.Monday))-Number.From(Date.StartOfWeek(CurrentDate, Day.Monday)))/7, type number),",
+          "      InsertCompletedWeek = Table.AddColumn(InsertWeekOffset, \"WeekCompleted\", each Date.EndOfWeek( [Date], Day.Monday) < Date.From(Date.EndOfWeek(CurrentDate, Day.Monday)), type logical),",
+          "  ",
+          "      InsertDayWeek = Table.AddColumn(InsertCompletedWeek, \"Day of Week Number\", each Date.DayOfWeek([Date], Day.Monday) + WDStart, Int64.Type),",
+          "      InsertDayName = Table.AddColumn(InsertDayWeek, \"Day of Week Name\", each Text.Proper( Date.ToText([Date], \"dddd\" )), type text),",
+          "      InsertDayInitial = Table.AddColumn(InsertDayName, \"Day of Week Initial\", each Text.Proper(Text.Start([Day of Week Name], 1)) & Text.Repeat( Character.FromNumber(8203), Date.DayOfWeek([Date], Day.Monday) + WDStart ), type text),",
+          "      InsertDayOfYear = Table.AddColumn(InsertDayInitial, \"Day of Year\", each Date.DayOfYear([Date]), Int64.Type),",
+          "      InsertDayInt = Table.AddColumn(InsertDayOfYear, \"DateInt\", each [Year] * 10000 + [Month] * 100 + [Day of Month], type number),",
+          "      InsertDayOffset = Table.AddColumn(InsertDayInt, \"CurrDayOffset\", each Number.From([Date]) - Number.From(CurrentDate), type number),",
+          "      InsertIsAfterToday = Table.AddColumn(InsertDayOffset, \"IsAfterToday\", each not ([Date] <= Date.From(CurrentDate)), type logical),",
+          "      InsertIsWorkingDay = Table.AddColumn(InsertIsAfterToday, \"IsWeekDay\", each if Date.DayOfWeek([Date], Day.Monday) > 4 then false else true, type logical),",
+          "      InsertIsHoliday = Table.AddColumn(InsertIsWorkingDay, \"IsHoliday\", each if Holidays = null then \"Unknown\" else List.Contains( Holidays, [Date] ), if Holidays = null then type text else type logical),",
+          "      InsertIsBusinessDay = Table.AddColumn(InsertIsHoliday, \"IsBusinessDay\", each if [IsWeekDay] = true and [IsHoliday] <> true then true else false, type logical),",
+          "      InsertDayType = Table.AddColumn(InsertIsBusinessDay, \"Day Type\", each if [IsHoliday] = true then \"Holiday\" else if [IsWeekDay] = false then \"Weekend\" else if [IsWeekDay] = true then \"Weekday\" else null, type text),",
+          "",
+          "      InsertISOYear = Table.AddColumn( InsertDayType, \"ISO Year\", each Date.Year( Date.AddDays( Date.StartOfWeek([Date], Day.Monday), 3 )), type number),",
+          "      InsertISOqNum = Table.AddColumn(InsertISOYear, \"ISO Quarter Number\", each if [Week Number] >39 then 4 else if [Week Number] >26 then 3 else if [Week Number] >13 then 2 else 1, Int64.Type),",
+          "      InsertISOqtr = Table.AddColumn(InsertISOqNum, \"ISO Quarter\", each \"Q\" & Number.ToText([ISO Quarter Number]), type text),",
+          "      InsertISOQuarter = Table.AddColumn(InsertISOqtr, \"ISO Quarter & Year\", each \"Q\" & Number.ToText([ISO Quarter Number]) & \" \" & Number.ToText([ISO Year]), type text),",
+          "      InsertISOqNy = Table.AddColumn(InsertISOQuarter, \"ISO QuarternYear\", each [ISO Year] * 10 + [ISO Quarter Number], type number),",
+          "",
+          "      // BufferTable = Table.Buffer(Table.Distinct( InsertISOqNy[[ISO Year], [DateInt]])),",
+          "      // InsertISOday = Table.AddColumn(InsertISOqNy, \"ISO Day of Year\", (OT) => Table.RowCount( Table.SelectRows( BufferTable, (IT) => IT[DateInt] <= OT[DateInt] and IT[ISO Year] = OT[ISO Year])),  Int64.Type),",
+          "      AddFY = Table.AddColumn(InsertISOqNy, \"Fiscal Year\", each \"FY\" & (if [Month] >= FYStartMonth and FYStartMonth >1 then Text.From([Year] +1) else Text.From([Year])), type text),",
+          "      AddFYCompleted = Table.AddColumn(AddFY, \"Fiscal Year Completed\", each ",
+          "        if Date.From([Date]) < #date(Date.Year(CurrentDate) + 1, 7, 1) ",
+          "        then true ",
+          "        else false,",
+          "        type logical),",
+          "      //AddFYs = Table.AddColumn(AddFY, \"Fiscal Year short\", each \"FY\" & (if [Month] >= FYStartMonth and FYStartMonth >1 then Text.PadEnd( Text.End( Text.From([Year] +1), 2), 2, \"0\") else Text.End( Text.From([Year]), 2)), type text),",
+          "      AddFQ = Table.AddColumn(AddFYCompleted, \"Fiscal Quarter\", each \"FQ\" & Text.From( Number.RoundUp( Date.Month( Date.AddMonths( [Date], - (FYStartMonth -1) )) / 3 )) & \" \" & (if [Month] >= FYStartMonth and FYStartMonth >1 then Text.From([Year] +1) else Text.From([Year])), type text),",
+          "      AddFQnYr = Table.AddColumn(AddFQ, \"FQuarternYear\", each (if [Month] >= FYStartMonth and FYStartMonth >1 then [Year] +1 else [Year]) * 10 + Number.RoundUp( Date.Month( Date.AddMonths( [Date], - (FYStartMonth -1) )) / 3 ), type number),",
+          "      AddFM = Table.AddColumn(AddFQnYr, \"Fiscal Period Number\", each if [Month] >= FYStartMonth and FYStartMonth >1 then [Month] - (FYStartMonth-1) else if [Month] >= FYStartMonth and FYStartMonth =1 then [Month] else [Month] + (12-FYStartMonth+1), type number),",
+          "      AddFP = Table.AddColumn(AddFM, \"Fiscal Period\", each \"FP\" & Text.PadStart( Text.From([Fiscal Period Number]), 2, \"0\") & \" \" & (if [Month] >= FYStartMonth and FYStartMonth >1 then Text.From([Year] +1) else Text.From([Year])), type text),",
+          "      AddFMnYr = Table.AddColumn(AddFP , \"FPeriodnYear\", each (if [Month] >= FYStartMonth and FYStartMonth >1 then [Year] +1 else [Year]) * 100 + [Fiscal Period Number], type number),",
+          "      FYCalendarStart = #date( Date.Year(StartDate)-1, FYStartMonth, 1 ),",
+          "      InsertFFD = Table.AddColumn( AddFMnYr, \"FiscalFirstDay\", each if [Month] >= FYStartMonth and FYStartMonth >1 then #date( Date.Year([Date])+1, FYStartMonth, 1) else #date( Date.Year([Date]), FYStartMonth, 1), type date ),",
+          "",
+          "      InitTable = Table.FromList( List.Transform( {Number.From(FYCalendarStart) .. Number.From(EndDate)}, Date.From), Splitter.SplitByNothing(), type table [DateFW = Date.Type]),",
+          "      AddFFD = Table.AddColumn( InitTable, \"FiscalFirstDay\", each if Date.Month([DateFW]) < FYStartMonth then #date(Date.Year([DateFW]), FYStartMonth, 1) else #date(Date.Year([DateFW]) + 1, FYStartMonth, 1)),",
+          "      AddFWSD = Table.AddColumn( AddFFD, \"FWStartDate\", each Date.AddYears(Date.StartOfWeek([DateFW], Day.Monday), 1)),",
+          "      Group1 = Table.Group( AddFWSD, {\"FiscalFirstDay\", \"FWStartDate\"}, {{\"AllRows\", each _, type table [DateFW = nullable date, FiscalFirstDay = date, FWStartDate = date]}}),",
+          "      Group2 = Table.Group( Group1, {\"FiscalFirstDay\"}, {{\"AllRows2\", each _, type table [FiscalFirstDay = date, FWStartDate = date, AllRows = table]}}),",
+          "      AddIndex = Table.AddColumn( Group2, \"Custom\", each Table.AddIndexColumn([AllRows2], \"Fiscal Week Number\", 1, 1) )[[Custom]],",
+          "      ExpandG2 = Table.ExpandTableColumn( AddIndex, \"Custom\", {\"FiscalFirstDay\", \"FWStartDate\", \"AllRows\", \"Fiscal Week Number\"}, {\"FiscalFirstDay\", \"FWStartDate\", \"AllRows\", \"Fiscal Week Number\"}), ",
+          "      ExpandG1 = Table.ExpandTableColumn( ExpandG2, \"AllRows\", {\"DateFW\"}, {\"DateFW\"} )[[DateFW], [Fiscal Week Number]],",
+          "      MergeFYW = Table.Join( InsertFFD, {\"Date\"}, ExpandG1, {\"DateFW\"}, JoinKind.LeftOuter, JoinAlgorithm.SortMerge ),",
+          "      FWlogic = List.Contains( {null}, FYStartMonthNum),",
+          "      UpdateFYWeek = if FWlogic then Table.ReplaceValue(MergeFYW, each [Fiscal Week Number], each if FYStartMonth =1 then [Week Number] else [Fiscal Week Number], Replacer.ReplaceValue, {\"Fiscal Week Number\"}) else MergeFYW,",
+          "      AddFYW = Table.AddColumn( UpdateFYWeek, \"Fiscal Week\", each if FWlogic then \"F\" & [#\"Week & Year\"] else if FYStartMonth =1 then \"FW\" & Text.PadStart( Text.From([Fiscal Week Number]), 2, \"0\") & Date.ToText([Date], \" yyyy\") else if Date.Month([Date]) < FYStartMonth then \"FW\" & Text.PadStart( Text.From([Fiscal Week Number]), 2, \"0\") & Date.ToText([Date], \" yyyy\") else \"FW\" & Text.PadStart(Text.From([Fiscal Week Number]), 2, \"0\") & \" \" & Text.From( Date.Year([Date])+1), type text),",
+          "      InsertFWeeknYear = Table.AddColumn(AddFYW, \"FWeeknYear\", each if FWlogic then [WeeknYear] else (if FYStartMonth =1 then Date.Year([Date]) else if Date.Month([Date]) < FYStartMonth then Date.Year([Date]) else Date.Year([Date])+1) * 100 + [Fiscal Week Number],  Int64.Type),",
+          "      ",
+          "      CurrentDateRecord = Table.SelectRows(InsertFWeeknYear, each ([Date] = CurrentDate)),",
+          "      CurrentISOyear = CurrentDateRecord{0}[ISO Year],",
+          "      CurrentISOqtr = CurrentDateRecord{0}[ISO Quarter Number],",
+          "      CurrentYear = CurrentDateRecord{0}[Year],",
+          "      CurrentMonth = CurrentDateRecord{0}[Month],",
+          "      CurrentFiscalFirstDay = CurrentDateRecord{0}[FiscalFirstDay],",
+          "      PrevFiscalFirstDay = Date.AddYears(CurrentFiscalFirstDay, -1),",
+          "      CurrentFY = CurrentDateRecord{0}[Fiscal Year],",
+          "      CurrentFQ = CurrentDateRecord{0}[FQuarternYear],",
+          "      CurrentFP = CurrentDateRecord{0}[FPeriodnYear],",
+          "      CurrentFW = CurrentDateRecord{0}[FWeeknYear],",
+          "",
+          "      InsertISOYrOffset = Table.AddColumn(InsertFWeeknYear, \"ISO CurrYearOffset\", each [ISO Year] - CurrentISOyear, type number),",
+          "      InsertISOQtrOffset = Table.AddColumn(InsertISOYrOffset, \"ISO CurrQuarterOffset\", each ((4 * [ISO Year]) +  [ISO Quarter Number]) - ((4 * CurrentISOyear) + CurrentISOqtr), type number),",
+          "      InsertFYoffset = Table.AddColumn(InsertISOQtrOffset, \"Fiscal CurrYearOffset\", each try (if [Month] >= FYStartMonth then [Year]+1 else [Year]) - (if CurrentMonth >= FYStartMonth then CurrentYear+1 else CurrentYear) otherwise null, type number),",
+          "      InsertCurrentFY = Table.AddColumn(InsertFYoffset, \"IsCurrentFY\", each if [Fiscal Year] = CurrentFY then true else false, type logical),",
+          "      InsertCurrentFQ = Table.AddColumn(InsertCurrentFY, \"IsCurrentFQ\", each if [FQuarternYear] = CurrentFQ then true else false, type logical),",
+          "      InsertCurrentFP = Table.AddColumn(InsertCurrentFQ, \"IsCurrentFP\", each if [FPeriodnYear] = CurrentFP then true else false, type logical),",
+          "      InsertCurrentFW = Table.AddColumn(InsertCurrentFP, \"IsCurrentFW\", each if [FWeeknYear] = InsertISOYrOffset then true else false, type logical),",
+          "      InsertPYTD = Table.AddColumn(InsertCurrentFW, \"IsPYTD\", each if CurrentYear-1 = [Year] and [Day of Year] <= CurrentDateRecord{0}[Day of Year] then true else false, type logical),",
+          "        ListPrevFYDates = List.Buffer( Table.SelectRows( Table.ExpandTableColumn( Table.NestedJoin(",
+          "            Table.AddIndexColumn( Table.RenameColumns( Table.TransformColumnTypes( Table.FromList( List.Dates( PrevFiscalFirstDay, Number.From(CurrentFiscalFirstDay-PrevFiscalFirstDay),#duration(1,0,0,0)), Splitter.SplitByNothing()),{{\"Column1\", type date}}), {{\"Column1\", \"DateFY\"}}), \"Index\", 1, 1), {\"Index\"}, ",
+          "            Table.AddIndexColumn( Table.RenameColumns( Table.TransformColumnTypes( Table.FromList( List.Dates( Date.AddYears( PrevFiscalFirstDay, -1), Number.From( PrevFiscalFirstDay - Date.AddYears( PrevFiscalFirstDay, -1)),#duration(1,0,0,0)), Splitter.SplitByNothing()),{{\"Column1\", type date}}), {{\"Column1\", \"DateFY\"}}), \"Index\", 1, 1)",
+          "            , {\"Index\"}, \"Table\", JoinKind.LeftOuter), \"Table\", {\"DateFY\"}, {\"PrevDateFY\"}), each [DateFY] <= CurrentDate)[PrevDateFY] ),",
+          "      InsertPFYTD = Table.AddColumn(InsertPYTD, \"IsPFYTD\", each if [Fiscal CurrYearOffset] = -1 and List.Contains(ListPrevFYDates, [Date] ) then true else false, type logical),",
+          "      InsertNetWorkdays = if AddRelativeNetWorkdays = true then Table.AddColumn(InsertPFYTD, \"Relative Networkdays\", each fxNETWORKDAYS( StartDate, [Date], Holidays ), type number ) else InsertPFYTD,",
+          "      fxNETWORKDAYS = (StartDate, EndDate, optional Holidays as list) =>",
+          "        let",
+          "          ListOfDates = List.Dates( StartDate, Number.From(EndDate-StartDate)+1, Duration.From(1) ),",
+          "          DeleteHolidays = if Holidays = null then ListOfDates else List.Difference( ListOfDates, List.Transform(Holidays, Date.From )),",
+          "          DeleteWeekends = List.Select( DeleteHolidays, each Date.DayOfWeek( _, Day.Monday) < 5 ),",
+          "          CountDays = List.Count( DeleteWeekends)",
+          "        in",
+          "          CountDays,",
+          "      RemoveToday = Table.RemoveColumns( if EndDate < CurrentDate then Table.SelectRows(InsertNetWorkdays, each ([Date] <> CurrentDate)) else InsertNetWorkdays, {\"Day of Year\", \"FiscalFirstDay\"}), ",
+          "      ChType = Table.TransformColumnTypes(RemoveToday,{{\"Year\", Int64.Type}, {\"Quarter Number\", Int64.Type}, {\"Month\", Int64.Type}, {\"Day of Month\", Int64.Type}, {\"DateInt\", Int64.Type}, {\"Day of Week Number\", Int64.Type}, {\"ISO CurrYearOffset\", Int64.Type}, {\"ISO QuarternYear\", Int64.Type}, {\"ISO CurrQuarterOffset\", Int64.Type}, {\"Week Number\", Int64.Type}, {\"WeeknYear\", Int64.Type}, {\"MonthnYear\", Int64.Type}, {\"QuarternYear\", Int64.Type}, {\"FQuarternYear\", Int64.Type}, {\"Fiscal Period Number\", Int64.Type}, {\"FPeriodnYear\", Int64.Type}, {\"CurrWeekOffset\", Int64.Type}, {\"CurrMonthOffset\", Int64.Type}, {\"CurrQuarterOffset\", Int64.Type}, {\"CurrYearOffset\", Int64.Type}, {\"Fiscal CurrYearOffset\", Int64.Type}, {\"Fiscal Week Number\", Int64.Type}}),",
+          "      ReorderCols = Table.ReorderColumns(ChType,{\"Date\", \"Year\", \"CurrYearOffset\", \"YearCompleted\", \"Quarter Number\", \"Quarter\", \"Start of Quarter\", \"End of Quarter\", \"Quarter & Year\", \"QuarternYear\", \"CurrQuarterOffset\", \"QuarterCompleted\", \"Month\", \"Start of Month\", \"End of Month\", \"Month & Year\", \"MonthnYear\", \"CurrMonthOffset\", \"MonthCompleted\", \"Month Name\", \"Month Short\", \"Month Initial\", \"Day of Month\", \"Week Number\", \"Start of Week\", \"End of Week\", \"Week & Year\", \"WeeknYear\", \"CurrWeekOffset\", \"WeekCompleted\", \"Day of Week Number\", \"Day of Week Name\", \"Day of Week Initial\", \"DateInt\", \"CurrDayOffset\", \"IsAfterToday\", \"IsWeekDay\", \"IsHoliday\", \"IsBusinessDay\", \"Day Type\", \"ISO Year\", \"ISO CurrYearOffset\", \"ISO Quarter Number\", \"ISO Quarter\", \"ISO Quarter & Year\", \"ISO QuarternYear\", \"ISO CurrQuarterOffset\", \"Fiscal Year\", \"Fiscal CurrYearOffset\", \"Fiscal Quarter\", \"FQuarternYear\", \"Fiscal Period Number\", \"Fiscal Period\", \"FPeriodnYear\", \"DateFW\", \"Fiscal Week Number\", \"Fiscal Week\", \"FWeeknYear\", \"IsCurrentFY\", \"IsCurrentFQ\", \"IsCurrentFP\", \"IsCurrentFW\", \"IsPYTD\", \"IsPFYTD\"}),",
+          "      ListCols = if FWlogic then Table.RemoveColumns(ReorderCols,{\"ISO Quarter Number\", \"Fiscal Year\", \"Fiscal Quarter\", \"FQuarternYear\", \"Fiscal Period Number\", \"Fiscal Period\", \"FPeriodnYear\", \"DateFW\", \"Fiscal Week Number\", \"Fiscal Week\", \"FWeeknYear\", \"Fiscal CurrYearOffset\", \"IsCurrentFQ\", \"IsCurrentFP\", \"IsCurrentFW\"}) else Table.RemoveColumns(ReorderCols,{\"Fiscal Period Number\", \"DateFW\", \"Fiscal Week Number\", \"ISO Quarter Number\"})",
+          "  in",
+          "      ListCols,",
+          "      Documentation = [",
+          "      Documentation.Name =  \" fxCalendar\", ",
+          "      Documentation.Description = \" Date table function to create an ISO-8601 calendar\", ",
+          "      Documentation.LongDescription = \" Date table function to create an ISO-8601 calendar\", ",
+          "      Documentation.Category = \" Table\", ",
+          "      Documentation.Version = \" 2.01: full code review\",",
+          "      Documentation.Source = \" local\", ",
+          "      Documentation.Author = \" Melissa de Korte\", ",
+          "      Documentation.Examples = { [Description =  \" See: https://forum.enterprisedna.co/t/extended-date-table-power-query-m-function/6390\", ",
+          "        Code = \" Optional paramters: #(lf)",
+          "        (FYStartMonthNum) Month number the fiscal year starts, Januari if omitted #(lf) ",
+          "        (Holidays) Select a query (and column) that contains a list of holiday dates #(lf) ",
+          "        (WDStartNum) Switch default weekday numbering from 0-6 to 1-7 by entering a 1 #(lf)",
+          "        (AddRelativeNetWorkdays) if true adds a Relative Networkdays column to the date table #(lf)",
+          "        #(lf)",
+          "        Important to note: #(lf)",
+          "        [Fiscal Week] starts on a Monday and can contain less than 7 days in a First- and/or Last Week of a FY #(lf)",
+          "        [IsWeekDay] does not take holiday dates into account  #(lf)",
+          "        [IsBusinessDay] does take optional holiday dates into account  #(lf)",
+          "        [IsPYTD] and [IsPFYTD] compare Previous [Day of Year] with the Current [Day of Year] number, so dates don't align in leap years #(lf)",
+          "        IMPORTANT! No Fiscal columns will be added if the (FYStartMonthNum) is omitted\", ",
+          "        Result = \" \" ] }",
+          "      ]",
+          "  in ",
+          "  Value.ReplaceType( fnDateTable, Value.ReplaceMetadata( Value.Type( fnDateTable ), Documentation ))",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "3eabaae7-448b-489e-8174-859c0886b8ae",
+        "queryGroup": "Parameters and Functions"
+      },
+      {
+        "name": "fxStartDate",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Date"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Date.StartOfYear(List.Min(#\"SourceData\"[Date]))",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "783e862a-dadf-482f-8a36-349cc7fb9f8d",
+        "queryGroup": "Parameters and Functions"
+      },
+      {
+        "name": "fxEndDate",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Date"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Date.EndOfYear(List.Max(#\"SourceData\"[Date]))",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "c26ca5b3-5912-413f-86ee-700d4df40134",
+        "queryGroup": "Parameters and Functions"
+      },
+      {
+        "name": "SourceDates",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = fxDateTable(fxStartDate, fxEndDate, 7, null, null, null)",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "9cba295d-25b0-4585-af61-7780897b8ac3",
+        "queryGroup": "Sources"
+      }
+    ],
+    "extendedProperties": [
+      {
+        "name": "SQLBI_BRAVO_ManageDatesConfiguration",
+        "type": "json",
+        "value": {
+          "name": "Config-01",
+          "autoNaming": 1,
+          "autoScan": 127,
+          "dateAvailable": true,
+          "dateEnabled": true,
+          "dateReferenceTableName": "DateAutoTemplate",
+          "dateReferenceTableValidation": 1,
+          "dateTableName": "Date",
+          "dateTableValidation": 1,
+          "defaults": {
+            "firstDayOfWeek": 0
+          },
+          "description": "Standard gregorian calendar",
+          "exceptTablesColumns": [],
+          "holidaysAvailable": true,
+          "holidaysDefinitionTableName": "HolidaysDefinition",
+          "holidaysDefinitionTableValidation": 0,
+          "holidaysEnabled": false,
+          "holidaysTableName": "Holidays",
+          "holidaysTableValidation": 0,
+          "isCurrent": false,
+          "isCustom": false,
+          "isoCountry": "US",
+          "onlyTablesColumns": [],
+          "targetMeasures": [
+            "Sum of Value"
+          ],
+          "templateUri": "file:///C:/Users/Sherman/AppData/Local/Bravo/.temp/ManageDates/Templates/Config-01.template.json",
+          "timeIntelligenceAvailable": true,
+          "timeIntelligenceEnabled": true
+        }
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "description": "Queries to raw sources",
+        "folder": "Sources"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "2"
+          }
+        ],
+        "description": "Model tables",
+        "folder": "Model"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Parameters and Functions"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "9a3f64d0-d5ce-477f-aefc-14267cf41c4d",
+        "fromColumn": "SeriesID",
+        "fromTable": "Units",
+        "toColumn": "SeriesID",
+        "toTable": "Series"
+      },
+      {
+        "name": "6b135c11-51d0-400d-a6be-1af8a37f063c",
+        "fromColumn": "Date",
+        "fromTable": "Units",
+        "toColumn": "Date",
+        "toTable": "Dates"
+      },
+      {
+        "name": "cbe72749-b7ab-4943-94d9-f56d5303f998",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Year Month Switch Order",
+        "fromTable": "Year Month Switch",
+        "toColumn": "Year Type Switch Order",
+        "toTable": "Year Type Switch"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Series",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "SeriesID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "description": "Identifier for the series (primary key)",
+            "isHidden": true,
+            "lineageTag": "2597ad24-b123-4798-9dab-4bddcb19f682",
+            "sourceColumn": "SeriesID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Level 1 grouping of the series variable.  These are the groupings by card",
+            "lineageTag": "b3aca2e6-c5ca-4718-9ff6-47aac1520a59",
+            "sortByColumn": "Account Sort",
+            "sourceColumn": "Account",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Level 2 grouping of the series variable.",
+            "lineageTag": "5caa76ce-4936-4289-87fb-add1cd894872",
+            "sortByColumn": "Group Sort",
+            "sourceColumn": "Group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Series",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Level 3 grouping of the series",
+            "lineageTag": "1196a1ca-b07c-447e-b0cb-a393faeabe79",
+            "sortByColumn": "Series Sort",
+            "sourceColumn": "Series",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Account Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for Account",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5c43c039-372c-4e81-9736-fca550e39271",
+            "sourceColumn": "Account Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Group Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for Group",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "153af8c7-f135-41c3-aab3-b0c928c87a4b",
+            "sourceColumn": "Group Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Series Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for Series",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "a6bc0091-da9a-43f1-8488-e147d97508a6",
+            "sourceColumn": "Series Sort",
+            "summarizeBy": "none"
+          }
+        ],
+        "description": "Dimension table containing information and partitions for series",
+        "lineageTag": "b5dcb2f1-1a5b-45a2-bb33-b15595dd92d0",
+        "partitions": [
+          {
+            "name": "Series-4cdc81e9-94f2-45e7-89cc-5a0bbbb3b657",
+            "mode": "import",
+            "queryGroup": "Model",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = SourceData,",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(Source,{\"SeriesID\", \"Account\", \"Group\", \"Series\"}),",
+                "    #\"Removed Duplicates\" = Table.Distinct(#\"Removed Other Columns\"),",
+                "    #\"Sorted Rows\" = Table.Sort(#\"Removed Duplicates\",{{\"SeriesID\", Order.Ascending}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Sorted Rows\", \"Account Sort\", each if [Account] = \"Waste Generation\" then 1 else if [Account] = \"Fee and Tax\" then 2 else if [Account] = \"Metro Tonnage\" then 3 else if [Account] = \"Metro Loads\" then 4 else if [Account] = \"Wet Allocation\" then 5 else if [Account] = \"Com Enhancement\" then 6 else 99),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Added Conditional Column\",{{\"Account Sort\", Int64.Type}}),",
+                "    #\"Added Conditional Column1\" = Table.AddColumn(#\"Changed Type\", \"Group Sort\", each if [Group] = \"Wet\" then 1 else if [Group] = \"Dry\" then 2 else if [Group] = \"Central\" then 3 else if [Group] = \"South\" then 4 else if [Group] = \"Metro\" then 5 else if [Group] = \"Private\" then 6 else 99),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Added Conditional Column1\",{{\"Group Sort\", Int64.Type}}),",
+                "    #\"Added Conditional Column2\" = Table.AddColumn(#\"Changed Type1\", \"Series Sort\", each if [Series] = \"Central\" then 1 else if [Series] = \"South\" then 2 else if [Series] = \"Metro\" then 3 else if [Series] = \"Private\" then 4 else if [Series] = \"MSW\" then 5 else if [Series] = \"Res Organics\" then 6 else if [Series] = \"Com Organics\" then 7 else if [Series] = \"Clean wood\" then 8 else if [Series] = \"Yard debris\" then 9 else if [Series] = \"Staffed\" then 10 else if [Series] = \"Automated\" then 11 else if [Series] = \"Minimum\" then 12 else if [Series] = \"COR\" then 13 else if [Series] = \"Forest Grove\" then 14 else if [Series] = \"Gresham\" then 15 else if [Series] = \"Pride\" then 16 else if [Series] = \"Suttle Rd\" then 17 else if [Series] = \"Troutdale\" then 18 else if [Series] = \"WRI\" then 19 else if [Series] = \"Special\" then 20 else 99),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Added Conditional Column2\",{{\"Series Sort\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type2\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Units",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "description": "Series type (i.e. \"AC\" or \"FC\", for actuals or forecast, respectively)",
+            "lineageTag": "07918b75-e111-4dbe-be5b-6f77d1eafb19",
+            "sourceColumn": "Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "description": "Date and foreign key",
+            "formatString": "Short Date",
+            "isHidden": true,
+            "lineageTag": "88dc3739-4b7c-4220-ba60-6383da801fc7",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SeriesID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "description": "Series foreign key",
+            "isHidden": true,
+            "lineageTag": "e1356c79-b5f8-4846-bb00-8a33afa0193c",
+            "sourceColumn": "SeriesID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "double",
+            "description": "Value of series (in tons, or loads)",
+            "isHidden": true,
+            "lineageTag": "2b98c611-344c-4826-93a9-36365249b5d1",
+            "sourceColumn": "Value",
+            "summarizeBy": "none"
+          }
+        ],
+        "description": "Fact table containing all actual and forecast units for each series id",
+        "lineageTag": "cfc934f8-ea22-4b3b-aa94-eabca6e31fee",
+        "partitions": [
+          {
+            "name": "Units-bb0f7be9-d834-424c-947c-4c2aaba2713b",
+            "mode": "import",
+            "queryGroup": "Model",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = SourceData,",
+                "    #\"Removed Columns\" = Table.RemoveColumns(Source,{\"Account\", \"Group\", \"Series\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dates",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "description": "Date, and primary key",
+            "formatString": "Short Date",
+            "isHidden": true,
+            "isKey": true,
+            "lineageTag": "d0913a6f-f0fb-4a5e-87fa-7dfcd112f902",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CY Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for the CY label",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "b350191e-4954-45f6-add3-727ec7b099a5",
+            "sourceColumn": "CY Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CY Offset",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Indicates the number of years the calendar year is from today's calendar year (helper column used in measures, filters)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "84ed3ac6-bbc0-46ea-9ffd-82a208b14a09",
+            "sourceColumn": "CY Offset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CY Completed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "boolean",
+            "description": "Indicates whether the calendar year is completed (helper column for filtering)",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isHidden": true,
+            "lineageTag": "21e30a7b-a541-43df-857c-7cb239d28d30",
+            "sourceColumn": "CY Completed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month CY Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for Month CY label",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c75bec2a-0b85-40a0-a99e-eed3e2b4bbed",
+            "sourceColumn": "Month CY Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month CY",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Short month label (i.e. Jan) to be used when viewing monthly data by calendar year",
+            "lineageTag": "f07a6a12-965b-46e1-8249-8d309108262a",
+            "sortByColumn": "Month CY Sort",
+            "sourceColumn": "Month CY",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FY",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Fiscal year label (i.e. FY2015)",
+            "lineageTag": "25201461-e94f-4823-8996-d600ceb71114",
+            "sortByColumn": "FY Sort",
+            "sourceColumn": "FY",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FY Offset",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Indicates the number of years the fiscal year is from today's fiscal year (helper column used in measures, filters)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "16f8d1e3-c54f-431f-8bf3-145f577deb2a",
+            "sourceColumn": "FY Offset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CY",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Calendar year label (i.e. CY2015)",
+            "lineageTag": "eb12109d-8a32-4ce1-a73b-90f212228396",
+            "sortByColumn": "CY Sort",
+            "sourceColumn": "CY",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FY Completed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "boolean",
+            "description": "Indicates whether the fiscal year is completed (helper column for filtering)",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isHidden": true,
+            "lineageTag": "0153b66a-970d-469e-8f3e-c02ac16dab96",
+            "sourceColumn": "FY Completed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month FY Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for Month FY label",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "6646b787-5c2a-4a46-9e02-b92dbf772cc5",
+            "sourceColumn": "Month FY Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month FY",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "description": "Short month label (i.e. Jan) to be used when viewing monthly data by fiscal year",
+            "lineageTag": "d4d3d38a-f82e-4b15-a281-0344c9759e1a",
+            "sortByColumn": "Month FY Sort",
+            "sourceColumn": "Month FY",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FY Sort",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "description": "Sort column for the FY label",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9ae15310-9ee8-4f37-80a3-7a781f480195",
+            "sourceColumn": "FY Sort",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Has Actuals",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "boolean",
+            "expression": [
+              "",
+              "VAR LastDateAC = ",
+              "    CALCULATE(",
+              "        MAX(Units[Date]), ",
+              "        Units[Type] = \"AC\",",
+              "        ALL(Units)",
+              "    )",
+              "RETURN Dates[Date]<=LastDateAC"
+            ],
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9f4cb360-5f18-47ca-8559-8da114d1b511",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "dataCategory": "Time",
+        "description": "Extended M Date Table (Melissa DeKortes) customized to current report context",
+        "lineageTag": "4e49e396-d50c-4c4d-a861-73dfab9c27bc",
+        "partitions": [
+          {
+            "name": "Dates-729619e9-4893-478a-a9d1-4c3ebd58a693",
+            "mode": "import",
+            "queryGroup": "Model",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = SourceDates,",
+                "    ",
+                "    // Remove unnecessary columns for current visual layer",
+                "    SelectNecessaryCols = Table.SelectColumns(Source,{\"Date\", \"Year\", \"CurrYearOffset\", \"YearCompleted\", \"Month\", \"Month Short\", \"Fiscal Year\", \"Fiscal CurrYearOffset\", \"Fiscal Year Completed\"}),",
+                "    ",
+                "    // Add CY label",
+                "    AddCY = Table.AddColumn(SelectNecessaryCols, \"CY\", each Text.Combine({\"CY\", Text.From([Year], \"en-US\")}), type text),",
+                "    ",
+                "    // Add Month label for viewing trends over FY",
+                "    AddMonthFY = Table.DuplicateColumn(AddCY, \"Month Short\", \"Month FY\"),",
+                "    ",
+                "    // Add sort column for MonthFY label (Jul = 1, Jun = 12)",
+                "    AddMonthFYSort = Table.AddColumn(AddMonthFY, \"Month FY Sort\", each let",
+                "            monthOrder = {\"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\", \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\"},",
+                "            position = List.PositionOf(monthOrder, [Month FY])",
+                "        in",
+                "            if position = -1 then null else position + 1),",
+                "    ",
+                "    // Add sort column for FY and set as integer",
+                "    AddFYSort = Table.AddColumn(AddMonthFYSort, \"FY Sort\", each Text.AfterDelimiter([Fiscal Year], \"Y\")),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(AddFYSort,{{\"FY Sort\", Int64.Type}}),",
+                "",
+                "    // Cleanup column names",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type1\",{{\"CurrYearOffset\", \"CY Offset\"}, {\"YearCompleted\", \"CY Completed\"}, {\"Month\", \"Month CY Sort\"}, {\"Month Short\", \"Month CY\"}, {\"Fiscal Year\", \"FY\"}, {\"Fiscal CurrYearOffset\", \"FY Offset\"}, {\"Fiscal Year Completed\", \"FY Completed\"}, {\"Year\", \"CY Sort\"}}),",
+                "    ",
+                "    // Fix types",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Month FY Sort\", Int64.Type}}),",
+                "    ",
+                "    // Reorder for intuition",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Changed Type\",{\"Date\", \"CY Sort\", \"CY\", \"CY Offset\", \"CY Completed\", \"FY Sort\", \"FY\", \"FY Offset\", \"FY Completed\", \"Month CY Sort\", \"Month CY\", \"Month FY Sort\", \"Month FY\"})",
+                "in",
+                "    #\"Reordered Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Year Type Switch",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "6ee662079736468e8bd4f2f104e7f0fe"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Year Type Switch",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "84fe6ee9-cf3c-42c9-a4c2-4bd6849b9857",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Year Type Switch Fields"
+                }
+              ]
+            },
+            "sortByColumn": "Year Type Switch Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year Type Switch Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "12cd1b3d-ee0f-49af-89f2-65009c4f18c5",
+            "sortByColumn": "Year Type Switch Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year Type Switch Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "7c5a4caa-7b16-442d-b04d-918f8bfcb541",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "'Year Type Switch'[Year Type Switch]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "0b1110f0-d9ef-4a0c-9fd1-b257f718ad01",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "67daf2f3-84e3-4d89-8e42-4d1c1f243d54",
+        "partitions": [
+          {
+            "name": "Year Type Switch-8d79da24-5694-41e8-ad7f-56faac7628d0",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"CY\", NAMEOF('Dates'[CY]), 0),",
+                "    (\"FY\", NAMEOF('Dates'[FY]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Year Month Switch",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "81238416c317425b8241744bce0fd868"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Year Month Switch",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "3e4a17c7-8ee5-41be-8978-d14851dc446c",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Year Month Switch Fields"
+                }
+              ]
+            },
+            "sortByColumn": "Year Month Switch Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year Month Switch Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "dbefe635-478c-4864-893d-1fd2991f488a",
+            "sortByColumn": "Year Month Switch Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year Month Switch Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "a055b7a4-eb6b-4b83-a0e9-107125f19316",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "02851787-1dc4-4839-8c17-3579b2d49d46",
+        "partitions": [
+          {
+            "name": "Year Month Switch-f2afe5f0-91dc-492d-9ab3-e680127c2478",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"Month CY\", NAMEOF('Dates'[Month CY]), 0),",
+                "    (\"Month FY\", NAMEOF('Dates'[Month FY]), 1)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "01d6e0b6-6a22-46d5-b158-3ada2486ccc1",
+        "measures": [
+          {
+            "name": "AllYear Subtitle",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR SelYearType = SELECTEDVALUE('Year Type Switch'[Year Type])",
+              "VAR Result = \"Previous \" & IF ( SelYearType = \"CY\", \"Calendar\", \"Fiscal\") & \" Years: (AC, FC)\"",
+              "RETURN Result"
+            ],
+            "lineageTag": "7d819c3c-f31e-4c7c-8fa6-849db00fa313"
+          },
+          {
+            "name": "Components Subtitle",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR SelYearType = SELECTEDVALUE('Year Type Switch'[Year Type])",
+              "VAR SelCY = SELECTEDVALUE(Dates[CY])",
+              "VAR SelFY = SELECTEDVALUE(Dates[FY])",
+              "VAR Result = IF ( SelYearType = \"CY\", SelCY, SelFY) & \" Components: (PY, AC and FC)\"",
+              "RETURN Result"
+            ],
+            "lineageTag": "e0602df7-4be9-45f8-8aae-1f8b8c587578"
+          },
+          {
+            "name": "CurrYear Subtitle",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR SelYearType = SELECTEDVALUE('Year Type Switch'[Year Type])",
+              "VAR SelCY = SELECTEDVALUE(Dates[CY])",
+              "VAR SelFY = SELECTEDVALUE(Dates[FY])",
+              "VAR Result = IF ( SelYearType = \"CY\", SelCY, SelFY) & \" X month: (AC, FC)\"",
+              "RETURN Result"
+            ],
+            "lineageTag": "db9b2f54-dafb-4997-8e7a-589475bef2ae"
+          },
+          {
+            "name": "KTQ Overview Subtitle",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR SelYearType = SELECTEDVALUE('Year Type Switch'[Year Type])",
+              "VAR SelCY = SELECTEDVALUE(Dates[CY])",
+              "VAR SelFY = SELECTEDVALUE(Dates[FY])",
+              "VAR Result = IF ( SelYearType = \"CY\", SelCY, SelFY) & \" Actuals (AC) vs Prev Yr (PY) & Forecasts (FC)\"",
+              "RETURN Result"
+            ],
+            "lineageTag": "25e93e54-98c7-4b8b-81de-8040ef62c695"
+          },
+          {
+            "name": "Components & Time Title",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR SelAccount = SELECTEDVALUE(Series[Account], \"All\")",
+              "VAR SelGroup = SELECTEDVALUE(Series[Group], \"All\")",
+              "VAR SelSeries = SELECTEDVALUE(Series[Series],\"All\")",
+              "VAR Result = SelAccount &",
+              "    IF(HASONEFILTER(Series[Group]),\">\" & SelGroup &",
+              "        IF(HASONEFILTER(Series[Series]),\">\" & SelSeries,\"\"",
+              "        )",
+              "    )",
+              "",
+              "RETURN Result"
+            ],
+            "lineageTag": "5692f73e-75ef-4ff6-bf96-d29d8f0a4bf4"
+          },
+          {
+            "name": "AC",
+            "description": [
+              "",
+              "CALCULATE(",
+              "    [Sum of Value],",
+              "    Units[Type] = \"AC\"",
+              ")"
+            ],
+            "displayFolder": "_Base",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Sum of Value],",
+              "    Units[Type] = \"AC\"",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "0074db71-b2fb-4c1e-8fe0-0df4e03c03a6"
+          },
+          {
+            "name": "AC Completed",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "VAR SelYearType = SELECTEDVALUE('Year Type Switch'[Year Type])",
+              "RETURN",
+              "    SWITCH(",
+              "        SelYearType,",
+              "        \"CY\", CALCULATE([AC], Dates[CY Offset]<0),",
+              "        \"FY\", CALCULATE([AC], Dates[FY Offset]<0),",
+              "        BLANK()",
+              "    )"
+            ],
+            "lineageTag": "38daf753-8610-4c3c-90f8-d8684e026b0a"
+          },
+          {
+            "name": "FC",
+            "description": [
+              "",
+              "CALCULATE(",
+              "    [Sum of Value],",
+              "    Units[Type] = \"FC\"",
+              ")"
+            ],
+            "displayFolder": "_Base",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Sum of Value],",
+              "    Units[Type] = \"FC\"",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "9dc8ab99-85ec-45d4-ab6a-9a404737f79a"
+          },
+          {
+            "name": "FC Completed",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "VAR SelYearType = SELECTEDVALUE('Year Type Switch'[Year Type])",
+              "RETURN",
+              "    SWITCH(",
+              "        SelYearType,",
+              "        \"CY\", CALCULATE([FC], Dates[CY Offset]<0),",
+              "        \"FY\", CALCULATE([FC], Dates[FY Offset]<0),",
+              "        BLANK()",
+              "    )"
+            ],
+            "lineageTag": "6ce15fb5-3e4c-413a-8467-c617bfd89285"
+          },
+          {
+            "name": "PY",
+            "description": [
+              "",
+              "CALCULATE(",
+              "    [AC],",
+              "    DATEADD (",
+              "        Dates[Date],",
+              "        -1,",
+              "        YEAR",
+              "    )",
+              ")"
+            ],
+            "displayFolder": "_Time Intelligence",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [AC],",
+              "    DATEADD (",
+              "        Dates[Date],",
+              "        -1,",
+              "        YEAR",
+              "    )",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "e0df9272-43f1-4155-9202-a9e040184b58"
+          },
+          {
+            "name": "Sum of Value",
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "description": "SUM('Units'[Value])",
+            "displayFolder": "_Base",
+            "expression": "SUM('Units'[Value])",
+            "formatString": "0.00",
+            "isHidden": true,
+            "lineageTag": "d536e70b-f577-4f8c-a7dd-257e133272a1"
+          },
+          {
+            "name": "TheAlberto",
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "description": "Helper measure to filter visuals against existence of data in fact table",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "INT ( ",
+              "    NOT ISEMPTY( ",
+              "        FILTER ( Units, Units[Type] = \"AC\")))"
+            ],
+            "formatString": "0",
+            "lineageTag": "99df06d5-4a5b-443e-8821-743281db3957"
+          },
+          {
+            "name": "Data Span",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR _MinActual = CALCULATE( MIN( Units[Date]), Units[Type] = \"AC\")",
+              "VAR _MaxActual = CALCULATE( MAX( Units[Date]), Units[Type] = \"AC\")",
+              "VAR _Result = \"Actuals: \" & FORMAT ( _MinActual, \"mmm yyyy\" ) & \" - \" & FORMAT ( _MaxActual, \"mmm yyyy\")",
+              "RETURN _Result"
+            ],
+            "lineageTag": "263833e5-72da-4a80-8540-e42b67b939fb"
+          },
+          {
+            "name": "Last Refresh",
+            "displayFolder": "_Titles & Formatting",
+            "expression": [
+              "",
+              "VAR _Refresh = MAX ( _DataRefresh[DateTime] )",
+              "VAR _Result = \"Last refresh: \" & _Refresh",
+              "RETURN _Result"
+            ],
+            "lineageTag": "d94eb745-a893-4c69-a8bf-41698fcaa12f"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures-9872775b-4c75-4744-acfd-0b1d0aa35d70",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_DataRefresh",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "IsHidden"
+          }
+        ],
+        "columns": [
+          {
+            "name": "DateTime",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "lineageTag": "b2c887c1-2aed-49d1-af65-640318235aca",
+            "sourceColumn": "DateTime",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isHidden": true,
+            "lineageTag": "f298e9d3-bc7b-4f1e-83d5-5cb6ee9a0971",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "isHidden": true,
+            "lineageTag": "624bfbfb-82db-45ef-9d4d-3d1fe31d598a",
+            "sourceColumn": "Time",
+            "summarizeBy": "none"
+          }
+        ],
+        "description": "Holds model refresh statistics",
+        "isHidden": true,
+        "lineageTag": "15a739ff-8390-4a76-ba54-a5b5d32fe74b",
+        "partitions": [
+          {
+            "name": "_DataRefresh-33f48dbb-e298-4375-acba-94f6bfb0ff06",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "",
+                "SummerTimeStartDate = Date.StartOfWeek(#date(Date.Year(DateTime.LocalNow()), 3, 14), Day.Sunday),",
+                "WinterTimeStartDate = Date.StartOfWeek(#date(Date.Year(DateTime.LocalNow()), 10, 14), Day.Sunday),",
+                "",
+                "Timezonehours = if DateTimeZone.RemoveZone(DateTimeZone.UtcNow()) < SummerTimeStartDate & #time(1, 0, 0) or",
+                "DateTimeZone.RemoveZone(DateTimeZone.UtcNow()) > WinterTimeStartDate & #time(1, 0, 0) then",
+                "-8 else -7,",
+                "",
+                "#\"Date and Time\" = DateTimeZone.SwitchZone(DateTimeZone.UtcNow(), Timezonehours, 0),",
+                "",
+                "#\"Converted to Table\" = #table(1, {{#\"Date and Time\"}}),",
+                "",
+                "#\"Renamed Columns\" = Table.RenameColumns(#\"Converted to Table\",{{\"Column1\", \"DateTime\"}}),",
+                "",
+                "#\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"DateTime\", type datetimezone}}),",
+                "",
+                "#\"Duplicated Column\" = Table.DuplicateColumn(#\"Changed Type\", \"DateTime\", \"DateTime - Copy\"),",
+                "",
+                "#\"Renamed Columns1\" = Table.RenameColumns(#\"Duplicated Column\",{{\"DateTime - Copy\", \"Date\"}}),",
+                "",
+                "#\"Duplicated Column1\" = Table.DuplicateColumn(#\"Renamed Columns1\", \"Date\", \"Date - Copy\"),",
+                "",
+                "#\"Changed Type1\" = Table.TransformColumnTypes(#\"Duplicated Column1\",{{\"Date - Copy\", type time}, {\"Date\", type date}}),",
+                "",
+                "#\"Renamed Columns2\" = Table.RenameColumns(#\"Changed Type1\",{{\"Date - Copy\", \"Time\"}})",
+                "in",
+                "",
+                "#\"Renamed Columns2\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
